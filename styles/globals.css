@@ -2,12 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-        font-family: 'Lobster';
-        src: url('/fonts/Lobster-Two.woff2') format('woff2');
-        font-weight: 400;
-        font-display: swap;
-        font-style: normal;
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
