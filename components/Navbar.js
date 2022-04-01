@@ -10,7 +10,7 @@ function Navbar() {
                 <div className="flex items-center h-20  w-full">
                     <div className="flex items-center mx-20 justify-between w-full h-full">
                     <div className="h-full text-center bg-red-600 ">
-                    <h1 className="font-bold text-3xl cursor-pointer font-serif py- mx- w-48  text-white">
+                    <h1 className="font-bold text-2xl px-4 py-6 cursor-pointer font-serif w-48  text-white">
                                 THE FARM
                             </h1>
                     </div>
@@ -55,7 +55,7 @@ function Navbar() {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer font-serif font-semibold bg-red-500 text-white rounded-md w-28 text-center h-9"
+                                    className="cursor-pointer font-serif font-semibold bg-red-500 px-4 py-2 text-white rounded-md w-28 text-center hover:bg-white hover:text-red-500 transition duration-300 ease-in-out"
                                 >
                                     CONTACT
                                 </Link>
