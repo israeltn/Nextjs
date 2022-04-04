@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Rampart: ["Rampart One", "cursive"],
+        RubikWetPaint:["Rubik one", "cursive"],
+        Oswald:["Oswald one", "normal"],
+        BebasNeue:["Bebas Neue one"  ],
+       },
 
     },
   },
